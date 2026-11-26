@@ -21,6 +21,6 @@
 
 ## 运行与验证
 
-使用 Node.js 24.12 或更高版本，在项目根目录运行 `npm ci` 和 `npm run dev` 即可启动。运行 `npm test` 可执行 11 项自动化测试，覆盖基础操作、任务持久化、歧义处理等场景。DeepSeek 工具调用使用模拟响应验证。完整运行说明和 32 秒演示见 [README](README.md)。
+使用 Node.js 24.12 或更高版本，在项目根目录运行 `npm ci` 和 `npm run dev` 即可启动。运行 `npm test` 可执行 11 项自动化测试，覆盖基础操作、任务持久化、歧义处理等场景。DeepSeek 工具调用使用模拟响应验证。完整运行说明见 [README](README.md)。
 
 代码和本说明使用了 AI 辅助。上面记录的对话和使用感受来自我在 GitHub Codespaces 中的实际测试。
