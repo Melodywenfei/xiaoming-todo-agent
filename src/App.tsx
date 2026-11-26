@@ -26,7 +26,7 @@ export default function App() {
     setError("");
     try {
       const answer = await requestReply(outgoing);
-      setMessages([...outgoing, { role: "assistant", content: answer }]);
+      setMessages([...outgoing, { role: "assistant", content: answer.reply, view: answer.view }]);
     } catch (cause) {
       setMessages(messages);
       setDraft(text);
